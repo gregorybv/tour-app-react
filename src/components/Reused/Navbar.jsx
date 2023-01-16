@@ -28,8 +28,13 @@ const Navbar = () => {
         className="header__logo"
         src={logo}
         alt="YourTour"
+        data-aos="fade-right"
+        data-aos-duration="1500"
       />
-      <div className="header__menu">
+      <div className="header__menu"
+           data-aos="fade-down"
+           data-aos-duration="1500"
+      >
         <ul className="header__list">
           {
             nav__links.map(item => (
@@ -41,6 +46,8 @@ const Navbar = () => {
         </ul>
       </div>
       <a href="tel:+7 999 999 99 99" className="header__link"
+         data-aos="fade-left"
+         data-aos-duration="1500"
       >+7 999 999 99 99</a>
     </nav>
   )

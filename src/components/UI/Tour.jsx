@@ -5,7 +5,10 @@ import TourBtn from "../Reused/TourBtn";
 const Tour = () => {
   return (
     <section id='tour' className="tour container">
-      <div className="tour__hat">
+      <div className="tour__hat"
+           data-aos="zoom-in"
+           data-aos-duration="1500"
+      >
         <h2 className="tour__title title-h2">Собери свой тур</h2>
         <p className="tour__subtitle subtitle">
           Идейные соображения высшего порядка, а также рамки и

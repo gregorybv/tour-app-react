@@ -14,8 +14,12 @@ import ChoiceMenu from "../Reused/ChoiceMenu";
 const Choice = () => {
   return (
     <section id="choice" className="choice container">
-      <div className="choice__body">
-        <h2 className="title-h2">Выбери свой тур</h2>
+      <div className="choice__body"
+           data-aos="zoom-in"
+           data-aos-duration="1500"
+      >
+        <h2 className="title-h2"
+        >Выбери свой тур</h2>
         <ChoiceMenu/>
       </div>
       <ul className="choice__photo">

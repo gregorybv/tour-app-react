@@ -17,7 +17,10 @@ import travel_13 from '../../assetts/image/block_5/travel photo-13.jpg'
 const Gallery = () => {
   return (
     <section className="gallery container">
-      <div className="gallery__hat">
+      <div className="gallery__hat"
+           data-aos="zoom-in"
+           data-aos-duration="1500"
+      >
         <h2 className="gallery__title title-h2">
           Фотографии путешествий
         </h2>

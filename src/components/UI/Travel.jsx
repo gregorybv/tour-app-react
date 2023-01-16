@@ -4,14 +4,18 @@ import travel from '../../assetts/image/block_7/footer photo.jpg'
 
 const Travel = () => {
   return (
-    <section className="travel container">
+    <section className="travel container"
+             data-aos="zoom-in"
+             data-aos-duration="1500"
+    >
       <div className="travel__contents">
         <img
           className="travel__img"
           src={travel}
           alt="footer photo"
         />
-        <div className="travel__content">
+        <div className="travel__content"
+        >
           <h3 className="travel__title">
             Пора в путешествие вместе с нами!
           </h3>

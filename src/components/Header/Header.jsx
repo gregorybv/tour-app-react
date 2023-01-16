@@ -10,10 +10,16 @@ const Header = () => {
       <div className="header__content">
         <Navbar/>
         <div className="header__main">
-          <h1 className="header__title">
+          <h1 className="header__title"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+          >
             Идеальные путешествия существуют
           </h1>
-          <p className="header__subtitle">
+          <p className="header__subtitle"
+             data-aos="fade-up"
+             data-aos-duration="1500"
+          >
             Идейные соображения высшего порядка, а также рамки и
             место обучения кадров
           </p>

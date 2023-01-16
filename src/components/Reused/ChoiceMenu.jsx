@@ -14,7 +14,8 @@ allNavButtons.forEach((button) => {
 
 const ChoiceMenu = () => {
   return (
-    <div className="choice__menu">
+    <div className="choice__menu"
+    >
       <ul className="choice__list">
         <li>
           <button

@@ -6,7 +6,10 @@ import review_2 from '../../assetts/image/block_4/review photo-2.png'
 const Review = () => {
   return (
     <section id="review" className="review container">
-      <div className="review__hat">
+      <div className="review__hat"
+           data-aos="zoom-in"
+           data-aos-duration="1500"
+      >
         <h2 className="review__title title-h2">
           Отзывы наших путешественников
         </h2>

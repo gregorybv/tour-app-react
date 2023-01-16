@@ -9,7 +9,10 @@ const Story = () => {
   return (
     <section id="stories" className="story">
       <div className="story__container">
-        <div className="story__hat">
+        <div className="story__hat"
+             data-aos="zoom-in"
+             data-aos-duration="1500"
+        >
           <h2 className="story__title title-h2">
             Истории путешествий
           </h2>

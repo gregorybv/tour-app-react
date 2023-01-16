@@ -1,3 +1,6 @@
+import {useEffect} from "react";
+import Aos from 'aos'
+
 import './App.css';
 import Header from "./components/Header/Header";
 import Choice from "./components/UI/Choice";
@@ -9,6 +12,11 @@ import Travel from "./components/UI/Travel";
 import Footer from "./components/Footer/Footer";
 
 function App() {
+
+  useEffect(() => {
+    Aos.init()
+  }, []);
+
   return (
     <>
       <Header/>
