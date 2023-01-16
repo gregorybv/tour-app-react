@@ -6,6 +6,7 @@ import Review from "./components/UI/Review";
 import Gallery from "./components/UI/Gallery";
 import Story from "./components/UI/Story";
 import Travel from "./components/UI/Travel";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Gallery/>
       <Story/>
       <Travel/>
+      <Footer/>
     </>
   );
 }
