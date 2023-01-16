@@ -1,0 +1,152 @@
+.gallery {
+  margin-top: 135px;
+  max-width: 1860px;
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .gallery {
+    margin-top: 75px;
+  }
+}
+
+.gallery__hat {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 767.98px) {
+  .gallery__hat {
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+}
+
+.gallery__block {
+  max-width: 1860px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  /* padding: 0px 15px; */
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+@media (max-width: 767.98px) {
+  .gallery__block {
+    padding: 0px 21px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .gallery__block {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 520.98px) {
+  .gallery__block {
+    gap: 10px;
+    /* margin: 18px 0px 18px 0px; */
+  }
+}
+
+@media (max-width: 1024px) {
+  .gallery__block li:nth-child(2),
+  .gallery__block li:nth-child(7),
+  .gallery__block li:nth-child(12) {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .gallery__block li:nth-child(3),
+  .gallery__block li:nth-child(6),
+  .gallery__block li:nth-child(11) {
+    display: none;
+  }
+}
+
+.gallery__img {
+  max-width: 442.5px;
+  width: 100%;
+  border: 0px solid var(--dark-color);
+  height: 300px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .gallery__img {
+    max-width: 314.67px;
+  }
+}
+
+@media (max-width: 850.98px) {
+  .gallery__img {
+    max-width: 350px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 520.98px) {
+  .gallery__img {
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .gallery__img {
+    width: 150px;
+    height: 110px;
+    border-radius: 20px;
+  }
+}
+
+.gallery__image {
+  max-width: 347.32px;
+  width: 100%;
+  height: 301px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .gallery__image {
+    max-width: 231px;
+  }
+}
+
+@media (max-width: 850.98px) {
+  .gallery__image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 520.98px) {
+  .gallery__image {
+    height: 110px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .gallery__image {
+    width: 99.33px;
+    height: 110px;
+    border-radius: 20px;
+  }
+}
+
