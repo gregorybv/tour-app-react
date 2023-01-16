@@ -5,6 +5,7 @@ import Tour from "./components/UI/Tour";
 import Review from "./components/UI/Review";
 import Gallery from "./components/UI/Gallery";
 import Story from "./components/UI/Story";
+import Travel from "./components/UI/Travel";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Review/>
       <Gallery/>
       <Story/>
+      <Travel/>
     </>
   );
 }
