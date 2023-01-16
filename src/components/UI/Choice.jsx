@@ -1,12 +1,13 @@
 import React from 'react';
-import '../../styles/choise.css'
+import '../../styles/choice.css'
 import card_1 from '../../assetts/image/block_2/card tour photo-1.png'
 import card_2 from '../../assetts/image/block_2/card tour photo-2.png'
 import card_3 from '../../assetts/image/block_2/card tour photo-3.png'
 import card_4 from '../../assetts/image/block_2/card tour photo-4.png'
 import card_5 from '../../assetts/image/block_2/card tour photo-5.png'
 import card_6 from '../../assetts/image/block_2/card tour photo-6.png'
-import arrow from '../../assetts/image/block_2/icon/arrow.png'
+import ChoiceOptions from "../Reused/ChoiceOptions";
+import ChoiceBtn from "../Reused/ChoiceBtn";
 
 const allNavButtons = document.querySelectorAll(".choice__link");
 allNavButtons.forEach((button) => {
@@ -19,7 +20,7 @@ allNavButtons.forEach((button) => {
   });
 });
 
-const Choise = () => {
+const Choice = () => {
   return (
     <section id="tour" className="choice container">
       <div className="choice__body">
@@ -59,41 +60,17 @@ const Choise = () => {
       </div>
       <ul className="choice__photo">
         <li className="choice__item">
-          <div className="choice__options">
-            <h3 className="choice__title">
-              Путешествие в горы
-            </h3>
-            <p className="choice__price">от 80 000 руб</p>
-          </div>
+          <ChoiceOptions/>
+          <ChoiceBtn/>
           <img
             className="choice__image"
             src={card_1}
             alt="Painting"
           />
-          <button type="button" className="choice__button button">
-            Подробнее
-            <img
-              className="choice__img"
-              src={arrow}
-              alt="Arrow"
-            />
-          </button>
         </li>
         <li className="choice__item">
-          <div className="choice__options">
-            <h3 className="choice__title">
-              Путешествие в горы
-            </h3>
-            <p className="choice__price">от 80 000 руб</p>
-          </div>
-          <button type="button" className="choice__button button">
-            Подробнее
-            <img
-              className="choice__img"
-              src={arrow}
-              alt="Arrow"
-            />
-          </button>
+          <ChoiceOptions/>
+          <ChoiceBtn/>
           <img
             className="choice__image"
             src={card_2}
@@ -101,20 +78,8 @@ const Choise = () => {
           />
         </li>
         <li className="choice__item">
-          <div className="choice__options">
-            <h3 className="choice__title">
-              Путешествие в горы
-            </h3>
-            <p className="choice__price">от 80 000 руб</p>
-          </div>
-          <button type="button" className="choice__button button">
-            Подробнее
-            <img
-              className="choice__img"
-              src={arrow}
-              alt="Arrow"
-            />
-          </button>
+          <ChoiceOptions/>
+          <ChoiceBtn/>
           <img
             className="choice__image"
             src={card_3}
@@ -122,20 +87,8 @@ const Choise = () => {
           />
         </li>
         <li className="choice__item">
-          <div className="choice__options">
-            <h3 className="choice__title">
-              Путешествие в горы
-            </h3>
-            <p className="choice__price">от 80 000 руб</p>
-          </div>
-          <button type="button" className="choice__button button">
-            Подробнее
-            <img
-              className="choice__img"
-              src={arrow}
-              alt="Arrow"
-            />
-          </button>
+          <ChoiceOptions/>
+          <ChoiceBtn/>
           <img
             className="choice__image"
             src={card_4}
@@ -143,20 +96,8 @@ const Choise = () => {
           />
         </li>
         <li className="choice__item">
-          <div className="choice__options">
-            <h3 className="choice__title">
-              Путешествие в горы
-            </h3>
-            <p className="choice__price">от 80 000 руб</p>
-          </div>
-          <button type="button" className="choice__button button">
-            Подробнее
-            <img
-              className="choice__img"
-              src={arrow}
-              alt="Arrow"
-            />
-          </button>
+          <ChoiceOptions/>
+          <ChoiceBtn/>
           <img
             className="choice__image"
             src={card_5}
@@ -164,20 +105,8 @@ const Choise = () => {
           />
         </li>
         <li className="choice__item">
-          <div className="choice__options">
-            <h3 className="choice__title">
-              Путешествие в горы
-            </h3>
-            <p className="choice__price">от 80 000 руб</p>
-          </div>
-          <button type="button" className="choice__button button">
-            Подробнее
-            <img
-              className="choice__img"
-              src={arrow}
-              alt="Arrow"
-            />
-          </button>
+          <ChoiceOptions/>
+          <ChoiceBtn/>
           <img
             className="choice__image"
             src={card_6}
@@ -189,7 +118,7 @@ const Choise = () => {
   )
 }
 
-export default Choise
+export default Choice
 
 
 

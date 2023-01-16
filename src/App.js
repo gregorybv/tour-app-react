@@ -1,6 +1,6 @@
 import './App.css';
 import Header from "./components/Header/Header";
-import Choise from "./components/UI/Choise";
+import Choice from "./components/UI/Choice";
 import Tour from "./components/UI/Tour";
 import Review from "./components/UI/Review";
 import Gallery from "./components/UI/Gallery";
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Header/>
-      <Choise/>
+      <Choice/>
       <Tour/>
       <Review/>
       <Gallery/>
