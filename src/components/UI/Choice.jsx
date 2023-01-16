@@ -13,7 +13,7 @@ import ChoiceMenu from "../Reused/ChoiceMenu";
 
 const Choice = () => {
   return (
-    <section id="tour" className="choice container">
+    <section id="choice" className="choice container">
       <div className="choice__body">
         <h2 className="title-h2">Выбери свой тур</h2>
         <ChoiceMenu/>

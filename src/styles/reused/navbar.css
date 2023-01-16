@@ -4,6 +4,9 @@
   padding: 0px 15px 0px 15px;
   min-height: 88px;
   display: flex;
+  position: fixed;
+  left: 0;
+  top: 0px;
   column-gap: 20px;
   align-items: center;
   justify-content: space-between;

@@ -4,19 +4,19 @@ import '../../styles/reused/navbar.css'
 
 const nav__links = [
   {
-    path: '#',
+    path: '#choice',
     display: 'Туры'
   },
   {
-    path: '#',
+    path: '#tour',
     display: 'Создать тур'
   },
   {
-    path: '#',
+    path: '#review',
     display: 'Отзывы'
   },
   {
-    path: '#',
+    path: '#stories',
     display: 'Истории'
   },
 ]

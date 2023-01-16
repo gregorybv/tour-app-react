@@ -14,6 +14,7 @@
 
 /*== MAIN ==*/
 .header__main {
+  padding-bottom: 207px;
   margin-bottom: 119px;
   display: flex;
   flex-direction: column;

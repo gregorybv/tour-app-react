@@ -1,9 +1,10 @@
 import React from 'react';
 import '../../styles/tour.css'
+import TourBtn from "../Reused/TourBtn";
 
 const Tour = () => {
   return (
-    <section className="tour container">
+    <section id='tour' className="tour container">
       <div className="tour__hat">
         <h2 className="tour__title title-h2">Собери свой тур</h2>
         <p className="tour__subtitle subtitle">
@@ -164,20 +165,7 @@ const Tour = () => {
               >
             </label>
           </div>
-          <div className="tour__button">
-            <button
-              type="submit"
-              className="tour__button_green buttons"
-            >
-              Найти тур
-            </button>
-            <button
-              type="reset"
-              className="tour__button_lettuce buttons"
-            >
-              Сбросить
-            </button>
-          </div>
+          <TourBtn/>
         </form>
       </div>
     </section>
