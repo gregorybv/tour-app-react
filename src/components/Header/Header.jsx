@@ -3,8 +3,28 @@ import '../../styles/header.css'
 import logo from '../../assetts/image/header/YourTour.svg'
 import fon from '../../assetts/image/block_1/header-img.jpg'
 
+const nav__links = [
+  {
+    path: '#',
+    display: 'Туры'
+  },
+  {
+    path: '#',
+    display: 'Создать тур'
+  },
+  {
+    path: '#',
+    display: 'Отзывы'
+  },
+  {
+    path: '#',
+    display: 'Истории'
+  },
+]
+
 const Header = () => {
   return (
+
     <header className="header">
       <div className="header__content">
         <div className="header__hat">
@@ -13,33 +33,44 @@ const Header = () => {
             src={logo}
             alt="YourTour"
           />
-          <nav className="header__menu">
+          <div className="header__menu">
             <ul className="header__list">
-              <li>
-                <a href="#" className="header__link"
-                >Туры</a
-                >
-              </li>
-              <li>
-                <a href="#" className="header__link"
-                >Создать тур</a
-                >
-              </li>
-              <li>
-                <a href="#" className="header__link"
-                >Отзывы</a
-                >
-              </li>
-              <li>
-                <a href="#" className="header__link"
-                >Истории</a
-                >
-              </li>
+              {
+                nav__links.map(item=>(
+                  <li className="header__link">
+                    <a className="header__reference" href={item.path}>{item.display}</a>
+                  </li>
+                ))
+              }
             </ul>
-          </nav>
+          </div>
+
+          {/*<nav className="header__menu">*/}
+          {/*  <ul className="header__list">*/}
+          {/*    <li>*/}
+          {/*      <a href="#" className="header__link"*/}
+          {/*      >Туры</a*/}
+          {/*      >*/}
+          {/*    </li>*/}
+          {/*    <li>*/}
+          {/*      <a href="#" className="header__link"*/}
+          {/*      >Создать тур</a*/}
+          {/*      >*/}
+          {/*    </li>*/}
+          {/*    <li>*/}
+          {/*      <a href="#" className="header__link"*/}
+          {/*      >Отзывы</a*/}
+          {/*      >*/}
+          {/*    </li>*/}
+          {/*    <li>*/}
+          {/*      <a href="#" className="header__link"*/}
+          {/*      >Истории</a*/}
+          {/*      >*/}
+          {/*    </li>*/}
+          {/*  </ul>*/}
+          {/*</nav>*/}
           <a href="tel:+7 999 999 99 99" className="header__link"
-          >+7 999 999 99 99</a
-          >
+          >+7 999 999 99 99</a>
         </div>
         <div className="header__main">
           <h1 className="header__title">

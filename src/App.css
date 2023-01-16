@@ -55,3 +55,120 @@ body {
   color: var(--light-color);
   font-family: "Roboto", sans-serif;
 }
+
+/*==========================================*/
+/*=== WRAPPER ===*/
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/*=== CONTAINER ===*/
+[class*="container"] {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* @media (max-width: 1199.98px) {
+	[class*="__container"]{
+		max-width: 1024px;
+	}
+}
+@media (max-width: 991.98px) {
+	[class*="__container"]{
+		max-width: 850px;
+	}
+}
+@media (max-width: 767.98px) {
+	[class*="__container"]{
+		max-width: none;
+	}
+} */
+
+/*==========================================*/
+/*=== BUTTON ===*/
+.button {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  max-width: 199px;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 28px;
+  color: var(--light-color);
+  width: 100%;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+@media (max-width: 767.98px) {
+  .button {
+    max-width: 160px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+}
+
+/*=== BUTTONS ===*/
+.buttons {
+  padding: 15px 30px;
+  width: 235px;
+  height: 58px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  margin: -12px 0px 0px 0px;
+}
+
+@media (max-width: 767.98px) {
+  .buttons {
+    font-size: 16px;
+    line-height: 142%;
+    width: 134px;
+    height: 47px;
+    padding: 0px;
+  }
+}
+/*=== TITLE ===*/
+.title-h2 {
+  font-weight: 700;
+  font-size: 59px;
+  line-height: 124%;
+  color: var(--dark-color);
+  text-align: center;
+}
+
+@media (max-width: 1024.98) {
+  .title-h2 {
+    font-size: 59px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .title-h2 {
+    font-size: 34px;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+  }
+}
+/*=== SUBTITLE ===*/
+.subtitle {
+  max-width: 458px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: var(--gray-color);
+}
+
+@media (max-width: 767.98px) {
+  .subtitle {
+    max-width: 319px;
+    font-size: 16px;
+    line-height: 142%;
+  }
+}
