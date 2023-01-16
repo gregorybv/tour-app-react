@@ -8,6 +8,17 @@ import card_5 from '../../assetts/image/block_2/card tour photo-5.png'
 import card_6 from '../../assetts/image/block_2/card tour photo-6.png'
 import arrow from '../../assetts/image/block_2/icon/arrow.png'
 
+const allNavButtons = document.querySelectorAll(".choice__link");
+allNavButtons.forEach((button) => {
+  button.addEventListener("click", (event) => {
+    allNavButtons.forEach((button) => {
+      button.classList.remove("choice__link_active");
+    });
+    const {target} = event;
+    target.classList.add("choice__link_active");
+  });
+});
+
 const Choise = () => {
   return (
     <section id="tour" className="choice container">
