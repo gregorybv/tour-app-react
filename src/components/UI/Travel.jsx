@@ -18,7 +18,7 @@ const Travel = () => {
           <p className="travel__subtitle">
             Напиши на почту и узнай подробности на
             <a href="mailto:yourtour@gmail.com" target="_blank" className="travel__link"
-            >yourtour@gmail.com
+            > yourtour@gmail.com
             </a>
           </p>
         </div>
