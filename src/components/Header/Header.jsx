@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../styles/header.css'
+import './header.css'
 import fon from '../../assetts/image/block_1/header-img.jpg'
-import Navbar from "../Reused/Navbar";
-import HeaderBtn from "../Reused/HeaderBtn";
+import Navbar from "../Reused/Navbar/Navbar";
+import HeaderBtn from "../Reused/HeaderBtn/HeaderBtn";
 
 const Header = () => {
   return (

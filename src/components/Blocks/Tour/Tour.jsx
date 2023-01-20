@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../styles/tour.css'
-import TourBtn from "../Reused/TourBtn";
+import './tour.css'
+import TourBtn from "../../Reused/TourBtn/TourBtn";
 
 const Tour = () => {
   return (
@@ -16,7 +16,7 @@ const Tour = () => {
         </p>
       </div>
       <div className="tour__forms">
-        <form name="form" className="tour__form" action="#">
+        <form name="form" className="tour__form" action="src/components/Blocks/Tour/Tour#">
           <div className="tour__column">
             <div className="tour__item">
               <label className="tour__label">
@@ -163,7 +163,7 @@ const Tour = () => {
               />
               <span className="tour__checkbox"></span>
               Нажимая кнопку, я принимаю условия
-              <a href="#" className="tour__license_link"
+              <a href="src/components/Blocks/Tour/Tour#" className="tour__license_link"
               >Лицензионного договора</a
               >
             </label>

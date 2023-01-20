@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/reused/choicemenu.css'
+import './choicemenu.css'
 
 const allNavButtons = document.querySelectorAll(".choice__link");
 allNavButtons.forEach((button) => {
@@ -19,7 +19,7 @@ const ChoiceMenu = () => {
       <ul className="choice__list">
         <li>
           <button
-            type="submit"
+            type="button"
             className="choice__link choice__link_active"
           >
             Популярные

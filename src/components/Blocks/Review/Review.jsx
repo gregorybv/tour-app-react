@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../styles/review.css'
-import review_1 from '../../assetts/image/block_4/review photo-1.png'
-import review_2 from '../../assetts/image/block_4/review photo-2.png'
+import './review.css'
+import review_1 from '../../../assetts/image/block_4/review photo-1.png'
+import review_2 from '../../../assetts/image/block_4/review photo-2.png'
 
 const Review = () => {
   return (

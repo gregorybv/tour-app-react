@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/footer.css'
+import './footer.css'
 import insta from '../../assetts/image/footer/Insta.svg'
 import fb from '../../assetts/image/footer/FB.svg'
 import vk from '../../assetts/image/footer/VK.svg'

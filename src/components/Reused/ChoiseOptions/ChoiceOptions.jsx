@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/reused/choiceoptions.css'
+import './choiceoptions.css'
 
 const ChoiceOptions = () => {
   return (

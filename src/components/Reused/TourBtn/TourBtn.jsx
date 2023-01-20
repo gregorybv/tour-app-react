@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/reused/tourbtn.css'
+import './tourbtn.css'
 
 const TourBtn = () => {
   return (

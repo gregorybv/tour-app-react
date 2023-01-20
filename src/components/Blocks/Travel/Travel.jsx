@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../styles/travel.css'
-import travel from '../../assetts/image/block_7/footer photo.jpg'
+import './travel.css'
+import travel from '../../../assetts/image/block_7/footer photo.jpg'
 
 const Travel = () => {
   return (
@@ -21,7 +21,7 @@ const Travel = () => {
           </h3>
           <p className="travel__subtitle">
             Напиши на почту и узнай подробности на
-            <a href="mailto:yourtour@gmail.com" target="_blank" className="travel__link"
+            <a href="mailto:yourtour@gmail.com" className="travel__link"
             > yourtour@gmail.com
             </a>
           </p>

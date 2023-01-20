@@ -60,7 +60,7 @@ body {
 /*=== WRAPPER ===*/
 .wrapper {
   min-height: 100%;
-  overflow: hidden;
+  /*overflow: hidden;*/
   display: flex;
   flex-direction: column;
 }
@@ -142,7 +142,7 @@ body {
   text-align: center;
 }
 
-@media (max-width: 1024.98) {
+@media (max-width: 1024.98px) {
   .title-h2 {
     font-size: 59px;
   }

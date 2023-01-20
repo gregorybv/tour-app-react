@@ -1,7 +1,9 @@
 .header__hat {
-  max-width: 1168px;
+  /*max-width: 1168px;*/
+  position: fixed;
+  top: 0;
   width: 100%;
-  padding: 0px 15px 0px 15px;
+  padding: 0px 68px 0px 68px;
   min-height: 88px;
   display: flex;
   column-gap: 20px;
@@ -64,7 +66,7 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 915px) {
   .header__list {
     display: none;
   }
@@ -89,4 +91,14 @@
 .header__link:hover {
   text-decoration: underline;
   text-underline-offset: 6px;
+}
+
+.fixedTop {
+  mix-blend-mode: difference;
+  filter: invert(.7);
+}
+
+.header__hat_scroll {
+  background: rgba(243, 239, 232, 0.6);
+  backdrop-filter: blur(27px);
 }

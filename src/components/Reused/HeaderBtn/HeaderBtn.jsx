@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../styles/reused/headerbtn.css'
+import './headerbtn.css'
 
 const HeaderBtn = () => {
   return (

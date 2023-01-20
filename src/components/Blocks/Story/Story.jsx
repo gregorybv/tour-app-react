@@ -1,9 +1,9 @@
 import React from 'react';
-import '../../styles/story.css'
-import story_1 from '../../assetts/image/block_6/story photo-1.jpg'
-import story_2 from '../../assetts/image/block_6/story photo-2.jpg'
-import story_3 from '../../assetts/image/block_6/story photo-3.jpg'
-import arrow from '../../assetts/image/block_2/icon/arrow.png'
+import './story.css'
+import story_1 from '../../../assetts/image/block_6/story photo-1.jpg'
+import story_2 from '../../../assetts/image/block_6/story photo-2.jpg'
+import story_3 from '../../../assetts/image/block_6/story photo-3.jpg'
+import arrow from '../../../assetts/image/block_2/icon/arrow.png'
 
 const Story = () => {
   return (
@@ -56,19 +56,19 @@ const Story = () => {
               </button>
               <div className="story__networks">
                 <a
-                  href="https://www.instagram.com/"
+                  href="src/components/Blocks/Story/Story"
                   target="_blank"
                   className="story__link"
                 >instagram</a
                 >
                 <a
-                  href="https://facebook.com/"
+                  href="src/components/Blocks/Story/Story"
                   target="_blank"
                   className="story__link"
                 >facebook</a
                 >
                 <a
-                  href="https://www.youtube.com/"
+                  href="src/components/Blocks/Story/Story"
                   target="_blank"
                   className="story__link"
                 >YouTube</a
@@ -108,13 +108,13 @@ const Story = () => {
               </button>
               <div className="story__networks">
                 <a
-                  href="https://www.instagram.com/"
+                  href="src/components/Blocks/Story/Story"
                   target="_blank"
                   className="story__link"
                 >instagram</a
                 >
                 <a
-                  href="https://www.youtube.com/"
+                  href="src/components/Blocks/Story/Story"
                   target="_blank"
                   className="story__link"
                 >ВКонтакте</a
@@ -154,19 +154,19 @@ const Story = () => {
               </button>
               <div className="story__networks">
                 <a
-                  href="https://www.instagram.com/"
+                  href="src/components/Blocks/Story/Story"
                   target="_blank"
                   className="story__link"
                 >instagram</a
                 >
                 <a
-                  href="https://facebook.com/"
+                  href="src/components/Blocks/Story/Story"
                   target="_blank"
                   className="story__link"
                 >facebook</a
                 >
                 <a
-                  href="https://www.youtube.com/"
+                  href="src/components/Blocks/Story/Story"
                   target="_blank"
                   className="story__link"
                 >ВКонтакте</a

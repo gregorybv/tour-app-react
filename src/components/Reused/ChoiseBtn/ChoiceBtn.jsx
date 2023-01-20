@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../styles/reused/choicebtn.css'
-import arrow from "../../assetts/image/block_2/icon/arrow.png";
+import './choicebtn.css'
+import arrow from "../../../assetts/image/block_2/icon/arrow.png";
 
 const ChoiceBtn = () => {
   return (
