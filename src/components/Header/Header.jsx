@@ -11,14 +11,14 @@ const Header = () => {
         <Navbar/>
         <div className="header__main">
           <h1 className="header__title"
-              data-aos="fade-up"
-              data-aos-duration="1500"
+              // data-aos="fade-up"
+              // data-aos-duration="1500"
           >
             Идеальные путешествия существуют
           </h1>
           <p className="header__subtitle"
-             data-aos="fade-up"
-             data-aos-duration="1500"
+             // data-aos="fade-up"
+             // data-aos-duration="1500"
           >
             Идейные соображения высшего порядка, а также рамки и
             место обучения кадров

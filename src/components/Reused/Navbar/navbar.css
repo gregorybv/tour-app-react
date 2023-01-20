@@ -95,7 +95,7 @@
 
 .fixedTop {
   mix-blend-mode: difference;
-  filter: invert(.7);
+  /*filter: invert(.7);*/
 }
 
 .header__hat_scroll {
