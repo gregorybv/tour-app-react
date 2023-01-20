@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tour-app-react/static/css/main.d5fda278.css",
-    "main.js": "/tour-app-react/static/js/main.0824c992.js",
+    "main.css": "/tour-app-react/static/css/main.2bd087f2.css",
+    "main.js": "/tour-app-react/static/js/main.a5fe2e9f.js",
     "static/media/header-img.jpg": "/tour-app-react/static/media/header-img.9ef6fedcf8398c1d35c3.jpg",
     "static/media/card tour photo-5.png": "/tour-app-react/static/media/card tour photo-5.e428747ae0ba43a042ad.png",
     "static/media/card tour photo-4.png": "/tour-app-react/static/media/card tour photo-4.4e5a6f6331b4e5e0a536.png",
@@ -33,11 +33,11 @@
     "static/media/VK.svg": "/tour-app-react/static/media/VK.af31317a1fe6dab2dff32205a097da41.svg",
     "index.html": "/tour-app-react/index.html",
     "static/media/FB.svg": "/tour-app-react/static/media/FB.0eaaad3a0b75d0a151971a7bb610cdcf.svg",
-    "main.d5fda278.css.map": "/tour-app-react/static/css/main.d5fda278.css.map",
-    "main.0824c992.js.map": "/tour-app-react/static/js/main.0824c992.js.map"
+    "main.2bd087f2.css.map": "/tour-app-react/static/css/main.2bd087f2.css.map",
+    "main.a5fe2e9f.js.map": "/tour-app-react/static/js/main.a5fe2e9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5fda278.css",
-    "static/js/main.0824c992.js"
+    "static/css/main.2bd087f2.css",
+    "static/js/main.a5fe2e9f.js"
   ]
 }
