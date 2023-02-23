@@ -1,11 +1,11 @@
 import React from 'react';
 import './choice.css'
-import card_1 from '../../../assetts/image/block_2/card tour photo-1.png'
-import card_2 from '../../../assetts/image/block_2/card tour photo-2.png'
-import card_3 from '../../../assetts/image/block_2/card tour photo-3.png'
-import card_4 from '../../../assetts/image/block_2/card tour photo-4.png'
-import card_5 from '../../../assetts/image/block_2/card tour photo-5.png'
-import card_6 from '../../../assetts/image/block_2/card tour photo-6.png'
+import card_1 from '../../../assetts/image/block_2/photo-1.png'
+import card_2 from '../../../assetts/image/block_2/photo-2.png'
+import card_3 from '../../../assetts/image/block_2/photo-3.png'
+import card_4 from '../../../assetts/image/block_2/photo-4.png'
+import card_5 from '../../../assetts/image/block_2/photo-5.png'
+import card_6 from '../../../assetts/image/block_2/photo-6.png'
 import ChoiceOptions from "../../Reused/ChoiseOptions/ChoiceOptions";
 import ChoiceBtn from "../../Reused/ChoiseBtn/ChoiceBtn";
 import ChoiceMenu from "../../Reused/ChoiseMenu/ChoiceMenu";
