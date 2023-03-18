@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/tour-app-react/static/css/main.640e57b0.css",
-    "main.js": "/tour-app-react/static/js/main.a5fe2e9f.js",
+    "main.css": "/tour-app-react/static/css/main.a470a0c9.css",
+    "main.js": "/tour-app-react/static/js/main.ea2552b6.js",
     "static/media/header-img.jpg": "/tour-app-react/static/media/header-img.9ef6fedcf8398c1d35c3.jpg",
-    "static/media/card tour photo-5.png": "/tour-app-react/static/media/card tour photo-5.e428747ae0ba43a042ad.png",
-    "static/media/card tour photo-4.png": "/tour-app-react/static/media/card tour photo-4.4e5a6f6331b4e5e0a536.png",
-    "static/media/card tour photo-6.png": "/tour-app-react/static/media/card tour photo-6.a8bdb8bc0d92c4a7a8fe.png",
+    "static/media/photo-5.png": "/tour-app-react/static/media/photo-5.e428747ae0ba43a042ad.png",
+    "static/media/photo-4.png": "/tour-app-react/static/media/photo-4.4e5a6f6331b4e5e0a536.png",
+    "static/media/photo-6.png": "/tour-app-react/static/media/photo-6.a8bdb8bc0d92c4a7a8fe.png",
     "static/media/travel photo-9.jpg": "/tour-app-react/static/media/travel photo-9.9a31b4a1d91774042bd7.jpg",
     "static/media/travel photo-7.jpg": "/tour-app-react/static/media/travel photo-7.266d69f7ae80b10c42d8.jpg",
-    "static/media/card tour photo-3.png": "/tour-app-react/static/media/card tour photo-3.28b5673a32b968f9dd8d.png",
-    "static/media/card tour photo-2.png": "/tour-app-react/static/media/card tour photo-2.7ca3db40932c2ce352ec.png",
+    "static/media/photo-3.png": "/tour-app-react/static/media/photo-3.28b5673a32b968f9dd8d.png",
+    "static/media/photo-2.png": "/tour-app-react/static/media/photo-2.7ca3db40932c2ce352ec.png",
     "static/media/story photo-3.jpg": "/tour-app-react/static/media/story photo-3.a91ba5d89fbd8875fc54.jpg",
-    "static/media/card tour photo-1.png": "/tour-app-react/static/media/card tour photo-1.dababfcf027ca52bdac7.png",
+    "static/media/photo-1.png": "/tour-app-react/static/media/photo-1.dababfcf027ca52bdac7.png",
     "static/media/travel photo-10.jpg": "/tour-app-react/static/media/travel photo-10.b182f5be716430efff64.jpg",
     "static/media/travel photo-6.jpg": "/tour-app-react/static/media/travel photo-6.d3846d63d599b6c23df4.jpg",
     "static/media/travel photo-5.jpg": "/tour-app-react/static/media/travel photo-5.51147f5b33dc8aae351a.jpg",
@@ -33,11 +33,11 @@
     "static/media/VK.svg": "/tour-app-react/static/media/VK.af31317a1fe6dab2dff32205a097da41.svg",
     "index.html": "/tour-app-react/index.html",
     "static/media/FB.svg": "/tour-app-react/static/media/FB.0eaaad3a0b75d0a151971a7bb610cdcf.svg",
-    "main.640e57b0.css.map": "/tour-app-react/static/css/main.640e57b0.css.map",
-    "main.a5fe2e9f.js.map": "/tour-app-react/static/js/main.a5fe2e9f.js.map"
+    "main.a470a0c9.css.map": "/tour-app-react/static/css/main.a470a0c9.css.map",
+    "main.ea2552b6.js.map": "/tour-app-react/static/js/main.ea2552b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.640e57b0.css",
-    "static/js/main.a5fe2e9f.js"
+    "static/css/main.a470a0c9.css",
+    "static/js/main.ea2552b6.js"
   ]
 }
