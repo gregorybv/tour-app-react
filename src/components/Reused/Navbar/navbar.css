@@ -1,5 +1,4 @@
 .header__hat {
-  /*max-width: 1168px;*/
   position: fixed;
   top: 0;
   width: 100%;
@@ -95,7 +94,6 @@
 
 .fixedTop {
   mix-blend-mode: difference;
-  /*filter: invert(.7);*/
 }
 
 .header__hat_scroll {
