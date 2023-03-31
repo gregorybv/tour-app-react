@@ -10,6 +10,7 @@
 }
 
 @media (max-width: 767.98px) {
+
   .travel {
     margin-top: 80px;
     margin-bottom: 75px;
@@ -25,6 +26,7 @@
 }
 
 @media (max-width: 767.99px) {
+
   .travel__contents {
     flex-wrap: wrap;
     justify-content: center;
@@ -40,6 +42,7 @@
 }
 
 @media (max-width: 767.98px) {
+
   .travel__img {
     max-width: 130px;
     max-height: 133px;
@@ -56,6 +59,7 @@
 }
 
 @media (max-width: 767.98px) {
+
   .travel__content {
     max-width: 350px;
     align-items: center;
@@ -70,6 +74,7 @@
 }
 
 @media (max-width: 767.98px) {
+
   .travel__title {
     max-width: 291px;
     font-size: 23px;
@@ -86,6 +91,7 @@
 }
 
 @media (max-width: 767.98px) {
+  
   .travel__subtitle {
     max-width: 291px;
     font-size: 16px;
